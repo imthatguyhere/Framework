@@ -24,6 +24,7 @@ if (isClass (missionConfigFile >> "ProcessAction" >> _type)) then {
 } else {_filter = true;};
 
 if (_filter) exitWith {life_action_inUse = false;};
+if (_noLicenseCost isEqualTo -1) exitWith { life_action_inUse = false; hint localize "STR_Process_NoLicenseDisabled"; };
 
 _itemInfo = [_materialsRequired,_materialsGiven,_noLicenseCost,(localize format ["%1",_text])];
 if (count _itemInfo isEqualTo 0) exitWith {life_action_inUse = false;};

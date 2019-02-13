@@ -7909,6 +7909,17 @@
             <Portuguese>Você precisa de R$%1 para processar sem licença!</Portuguese>
             <Polish>Musisz mieć $%1 aby przetworzyć bez odpowiedniej licencji</Polish>
         </Key>
+		<Key ID="STR_Process_NoLicenseDisabled">
+            <Original>You cannot process here without a license!</Original>
+            <Czech>Nemůžete to zpracovat bez licence!</Czech>
+            <Spanish>¡No puedes procesar aquí sin una licencia!</Spanish>
+            <Russian>Вы не можете обрабатывать здесь без лицензии!</Russian>
+            <German>Sie können hier nicht ohne Lizenz bearbeiten!</German>
+            <French>Vous ne pouvez pas traiter ici sans licence!</French>
+            <Italian>Non puoi elaborare qui senza una licenza!</Italian>
+            <Portuguese>Você não pode processar aqui sem uma licença!</Portuguese>
+            <Polish>Nie możesz przetworzyć tutaj bez licencji!</Polish>
+        </Key>
         <Key ID="STR_Process_Processed">
             <Original>You have processed %1 into %2</Original>
             <Czech>Máte zpracovaný %1 do %2</Czech>

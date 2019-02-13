@@ -3,7 +3,7 @@
 *       MaterialsReq (Needed to process) = Array - Format -> {{"ITEM CLASS",HOWMANY}}
 *       MaterialsGive (Returned items) = Array - Format -> {{"ITEM CLASS",HOWMANY}}
 *       Text (Progess Bar Text) = Localised String
-*       NoLicenseCost (Cost to process w/o license) = Scalar
+*       NoLicenseCost (Cost to process w/o license) = Scalar (-1 to disable processing without a license)
 *
 *   Example for multiprocess:
 *
